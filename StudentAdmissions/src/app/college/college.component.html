@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+
+	<div id="id1">
+			<br>
+            <br>
+             <input type="hidden" name="status_code" value="new_college">
+
+			College name <input type="text" [(ngModel)]="collegeDetails.college_name"><br>
+			<br> College code <input type="text" [(ngModel)]="collegeDetails.college_code"><br>
+			<br> College rank <input type="text" [(ngModel)]="collegeDetails.college_rank"><br>
+			<br> <input type="submit" (click)="addCollege()"><br>
+			<br>
+            <br>
+	</div>
+
+</body>
+</html>

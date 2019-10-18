@@ -1,0 +1,20 @@
+<html>
+
+<body>
+    <div class="links-container">
+
+        <div class="links"><a text-decoration="none" routerLinkActive='active' routerLink='login'>login</a></div>
+        <div class="links"><a text-decoration="none" [routerLink]="['/statu']">status</a></div>
+        <div class="links"><a text-decoration="none" [routerLink]="['/application']">new application form</a></div>
+
+    </div>
+
+
+
+    <div class="outlet">
+
+        <router-outlet></router-outlet>
+    </div>
+</body>
+
+</html>

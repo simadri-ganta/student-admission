@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Insert title here</title>
+</head>
+
+<body>
+
+
+    <div id="id1">
+
+        <div id="id2">
+            <h3>Welcome admission page</h3>
+        </div>
+
+
+        <br> <br>
+        <table>
+            <tr>
+                <td>name</td>
+                <td><input type="text" [(ngModel)]='deatils.name'><br> <br>
+            </tr>
+            <tr>
+                <td>Board type:</td>
+                <td>ssc<input type="radio" [(ngModel)]='deatils.board' value="ssc" name='radio'> cbse<input type="radio" [(ngModel)]='deatils.board' value="cbse" name='radio'></td>
+            </tr>
+            <tr>
+                <td>total marks</td>
+                <td><input type="text" [(ngModel)]='deatils.marks'></td>
+            </tr>
+            <tr>
+                <td>gpa</td>
+                <td><input id="id3" type="text" [(ngModel)]='deatils.gpa'></td>
+            </tr>
+            <tr>
+                <td>percentage</td>
+                <td><input type="text" [(ngModel)]='deatils.percentage'></td>
+            </tr>
+            <tr>
+                <td>school</td>
+                <td><input type="text" [(ngModel)]='deatils.school'></td>
+            </tr>
+            <tr>
+                <td>department choice</td>
+                <td><select [(ngModel)]='deatils.department'>
+					<option value="" disabled selected>Select your department</option>
+						<option value="cse">Cse</option>
+						<option value="ece">Ece</option>
+						<option value="it">It</option>
+						<option value="mech">Mech</option>
+					</select></td>
+            </tr>
+
+            <tr>
+                <td>College choice</td>
+                <td><select (click)='changed()' [(ngModel)]='deatils.college'>
+						<option value="" disabled selected>Select your choice</option>
+						<option *ngFor="let name of collegename;let k=index;" value={{collegecode[k]}}>
+							{{name}}
+
+						</option>
+
+					</select></td>
+
+                <tr>
+                    <tr>
+                        <td>College choice</td>
+                        <td><select (click)='changed()' [(ngModel)]='deatils. college_choice2'>
+						<option value="" disabled selected>Select your choice</option>
+					<option *ngFor="let name of collegename;let k=index;" value={{collegecode[k]}}>
+							{{name}}
+
+						</option>
+
+					</select></td>
+
+                        <tr>
+                            <td></td>
+
+                            <td><input type="submit" (click)="newapplicant()"></td>
+
+                        </tr>
+        </table>
+        <h6>*note: Once you apply, you can login[name as your userId(example abcd)] and password[board/gpa/board/percenatge(Example ssc/9.7/ssc/97)])<a href="application_status.jsp">click to
+				check</a></h6>
+    </div>
+    <div id="value">here</div>
+
+</body>
+
+</html>

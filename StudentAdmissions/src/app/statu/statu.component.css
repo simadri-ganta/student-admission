@@ -1,0 +1,36 @@
+.content {
+    height: 900px;
+    padding-left: 25%;
+}
+
+#f1 {
+    background-color: #0b3f4f;
+    height: 400px;
+    width: 400px;
+    padding: 30px;
+    padding-left: 70px;
+    padding-top: 70px;
+}
+
+td {
+    padding: 10px;
+}
+
+body {
+    color: white;
+}
+
+.button {
+    padding-left: 200px;
+    padding-top: 20px;
+}
+
+#id2 {
+    padding-left: 15px;
+    width: 300px;
+    height: 70px;
+    border: 2px solid white;
+    color: white;
+    background-color: grey;
+    margin-bottom: 15px;
+}

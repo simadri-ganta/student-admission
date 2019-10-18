@@ -1,0 +1,25 @@
+#id1 {
+    width: 350px;
+    height: 700px;
+    padding: 90px;
+    border: 1px solid black;
+    background-color: #0b3f4f;
+    color: white;
+}
+
+#id2 {
+    padding-left: 15px;
+    width: 300px;
+    height: 70px;
+    border: 2px solid white;
+    color: white;
+    background-color: grey;
+}
+
+td {
+    padding: 10px;
+}
+
+body {
+    padding-left: 20%;
+}

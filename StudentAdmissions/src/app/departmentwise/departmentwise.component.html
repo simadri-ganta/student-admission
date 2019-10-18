@@ -1,0 +1,36 @@
+
+                
+           
+
+               
+                <div class="whole-content" *ngFor="let i of detailsOfStudents">
+                    <div id='each-studentid'>
+                        <div id="studentheader">Name</div>
+                        <div id="studentheader">Board</div>
+                        <div id="studentheader">Total marks</div>
+                        <div id="studentheader">GPA</div>
+                        <div id="studentheader">Percenatge</div>
+                        <div id="studentheader">School</div>
+                        <div id="studentheader">Department</div>
+                        <div id="studentheader">Alloted dept</div>
+                        <div id="studentheader">college name</div>
+                        <div id="studentheader">college code</div>
+                        <div id="studentheader">applied date</div>
+                    </div>
+                    <div class="each-student" *ngFor="let j of i">
+                            <div id="student">{{j.name}}</div>
+                            <div id="student">{{j.board}}</div>
+                            <div id="student">{{j.marks}}</div>
+                            <div id="student">{{j.gpa}}</div>
+                            <div id="student">{{j.percentage}}</div>
+                            <div id="student">{{j.school}}</div>
+                            <div id="student">{{j.department}}</div>
+                            <div id="student">{{j.alloteddepartment}}</div>
+                            <div id="student">{{j.collegename}}</div>
+                            <div id="student">{{j.collegecode}}</div>
+                            <div id="student">{{j.joineddate}}</div>
+                    </div>
+
+                    <br>
+                    <br>
+                </div>

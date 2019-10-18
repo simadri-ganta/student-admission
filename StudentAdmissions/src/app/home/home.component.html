@@ -1,0 +1,32 @@
+<p>home works!</p>
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+</head>
+
+<body>
+
+    <div class="tab">
+        <a class="tablinks" routerLink="example">click</a>
+        <button class="tablinks" (click)="openCity(event, 'college','newcollege')">add college</button>
+        <button class="tablinks" (click)="openCity(event, 'next')">next</button>
+        <button class="logout" (click)="logout()">Logout</button>
+    </div>
+    <div class="content">
+        <div id="college" class="tabcontent">
+            <router-outlet></router-outlet>
+        </div>
+
+        <div id="next" class="tabcontent">
+            <h3>funtionality</h3>
+            <p>Paris is the capital of France.</p>
+        </div>
+    </div>
+
+</body>
+
+
+</html>

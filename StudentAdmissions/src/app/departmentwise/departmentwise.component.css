@@ -1,0 +1,28 @@
+
+body {
+	background-color: #595959;
+}
+.each-student{
+    display: flex;
+    border:#725959 2px solid;
+
+}
+#each-studentid{
+    display: flex;
+    border:#ecdcdc  4px solid;
+    height: 25px;
+
+}
+.whole-content{
+    background-color: #2e2424;
+}
+#student{
+    border:#ecdcdc 1px solid;
+    width: 140px;
+    height: 20px;
+}
+#studentheader{
+    border:#cf9f9f;
+    width: 140px;
+    height: 20px;
+}

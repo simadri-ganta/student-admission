@@ -1,0 +1,27 @@
+<p>home works!</p>
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+</head>
+
+<body>
+
+    <div class="tab">
+        <button class="tablinks" (click)="navigate('review')">review application</button>
+        <button class="tablinks" (click)="navigate('topstudents')" routerLink=''>top students</button>
+        <button class="tablinks" (click)="navigate('confirm')" routerLink=''>confirmation</button>
+        <button class="tablinks" (click)="navigate('departwise')" routerLink=''>department wise list</button>
+        <button class="logout" (click)="logout()">Logout</button>
+    </div>
+    <div class="content">
+        <div class="tabcontent">
+            <router-outlet></router-outlet>
+        </div>
+
+    </div>
+</body>
+
+</html>

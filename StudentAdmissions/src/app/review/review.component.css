@@ -1,0 +1,48 @@
+
+#id1 {
+	width: 300px;
+	height: 300px;
+	padding: 90px;
+	border: 1px solid black;
+	background-color: lightgrey;
+}
+
+#id2 {
+	border: 2px solid white;
+	color: white;
+	background-color: grey;
+}
+
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+body {
+	background-color: #595959;
+}
+
+td{
+    color: black;
+}
+
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
+
+tr:nth-child(odd) {
+	background-color: #F3F5D5;
+}
+
+th {
+	background-color: #BBBE6B;
+}
+.applicationlist{
+    display: flex;
+}
+.listcontent{
+    height: 450px;
+    width: 50%;
+    background-color: #504d4d;
+}
